@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  * {
+    @apply border-gray-700;
+  }
+  
+  body {
+    @apply bg-gray-900 text-gray-100 antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lime-500 disabled:pointer-events-none disabled:opacity-50;
+  }
+  
+  .btn-primary {
+    @apply btn bg-lime-500 text-gray-900 hover:bg-lime-400 active:scale-95 transform transition-all duration-150;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-gray-800 text-gray-100 hover:bg-gray-700 border border-gray-600;
+  }
+  
+  .btn-ghost {
+    @apply btn hover:bg-gray-800 hover:text-gray-100;
+  }
+  
+  .card {
+    @apply bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-4 md:p-6 hover:bg-gray-800/70 transition-all duration-300;
+  }
+  
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-width {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-lime-400 to-lime-600 bg-clip-text text-transparent;
+  }
+  
+  .glow {
+    @apply shadow-[0_0_30px_rgba(132,204,22,0.3)];
+  }
+} 

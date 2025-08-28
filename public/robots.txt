@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# CROCO HUB - Private club website
+# No public indexing allowed 
