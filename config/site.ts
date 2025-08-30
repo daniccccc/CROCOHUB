@@ -35,7 +35,7 @@ export const siteConfig = {
     {
       icon: "tv",
       title: "Zone TV Dedicate",
-      description: "Due zone TV • Una per film e partite • Una per console gaming"
+      description: "Due zone TV • Una per film e partite (Netflix e DAZN) • Una per console gaming"
     },
     {
       icon: "table-tennis",

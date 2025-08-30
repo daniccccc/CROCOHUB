@@ -1,4 +1,3 @@
-
 # CROCO HUB
 
 Landing page moderna per club privato tra amici con sistema di prenotazioni integrato.
@@ -301,3 +300,56 @@ Progetto privato per uso interno del club.
 ---
 
 **CROCO HUB** - Gaming • Relax • Community 🎮 
+
+
+la pagina home non mi convince, ho caricato un immagine nella cartella public da usare come immagine della home home.png
+CROCO HUB è tipo dentro un rettangolo ORRIBILE sistemalo subito e mi raccomando fai in modo che sia tutto super ottimizzato anche per la visualizzazione
+su mobile
+
+non abbiamo indicato dove, ad Arceto in Via Gadda 4/1
+
+<div class="inline-flex items-center space-x-2 bg-lime-500/10 border border-lime-500/20 rounded-full px-6 py-3"><span class="w-2 h-2 bg-lime-500 rounded-full animate-pulse"></span></div>
+non so cosa sia rimuovilo subito
+
+
+come per i giorni di apertura 
+<div class="flex flex-col items-center space-y-4"><div class="w-16 h-16 rounded-full bg-lime-500/10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-8 h-8 text-lime-500"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div><h3 class="text-xl font-semibold text-white">Domenica</h3><p class="text-lg text-lime-400 font-mono">15:00 - 00:00</p><div class="flex items-center space-x-2 text-gray-400"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-4 h-4"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg><span class="text-sm">Hub sociale</span></div></div>
+vorrei una casella uguale che indichi la chiusura
+
+<div class="flex flex-col items-center space-y-4"><div class="w-16 h-16 rounded-full bg-lime-500/10 flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-8 h-8 text-lime-500"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div><h3 class="text-xl font-semibold text-white">Domenica</h3><p class="text-lg text-lime-400 font-mono">15:00 - 00:00</p><div class="flex items-center space-x-2 text-gray-400"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-4 h-4"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg><span class="text-sm">Hub sociale</span></div></div>
+eliminalo 
+
+
+
+
+
+
+
+come mail di contatto usa hub@hypecroco.com
+togli il prenota nel footer 
+<a class="block text-gray-400 hover:text-lime-400 transition-colors" href="/prenota/">Prenota</a>
+nella sezione tariffe togli il max 6 persone
+rivedi la dimensione della sezione di orari di apertura, su mobile non arrivo più in fondo alla pagina altrimenti!!
+
+
+elimina
+<div class="flex flex-wrap justify-center gap-4 text-sm text-gray-500"><span class="bg-gray-800/50 px-3 py-1 rounded-full">🔒 Accesso privato</span><span class="bg-gray-800/50 px-3 py-1 rounded-full">⏰ Slot da 4 ore</span><span class="bg-gray-800/50 px-3 py-1 rounded-full">🤝 Rispetto reciproco</span><span class="bg-gray-800/50 px-3 py-1 rounded-full">✨ Pulizia condivisa</span></div>
+
+
+ git remote add origin https://github.com/daniccccc/crocohub.git
+   git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
