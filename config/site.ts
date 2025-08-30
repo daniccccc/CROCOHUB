@@ -21,8 +21,8 @@ export const siteConfig = {
   },
   
   pricing: {
-    weekday: 7,
-    weekend: 10,
+    weekday: 5,
+    weekend: 8,
     subscription: 25
   },
   

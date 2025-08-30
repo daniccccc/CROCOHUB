@@ -207,20 +207,20 @@ export function InterestForm() {
                       <input
                         type="radio"
                         name="entry.1582713179"
-                        value="Infrasettimanale 7€ (a ingresso)"
+                        value="Infrasettimanale 5€ (a ingresso)"
                         required
                         className="w-4 h-4 text-lime-500 bg-gray-800 border-gray-600 focus:ring-lime-500 focus:ring-2"
                       />
-                      <span className="ml-2 text-gray-300">Infrasettimanale 7€ (a ingresso)</span>
+                      <span className="ml-2 text-gray-300">Infrasettimanale 5€ (a ingresso)</span>
                     </label>
                     <label className="flex items-center">
                       <input
                         type="radio"
                         name="entry.1582713179"
-                        value="Festivo 10€ (a ingresso)"
+                        value="Festivo 8€ (a ingresso)"
                         className="w-4 h-4 text-lime-500 bg-gray-800 border-gray-600 focus:ring-lime-500 focus:ring-2"
                       />
-                      <span className="ml-2 text-gray-300">Festivo 10€ (a ingresso)</span>
+                      <span className="ml-2 text-gray-300">Festivo 8€ (a ingresso)</span>
                     </label>
                     <label className="flex items-center">
                       <input
